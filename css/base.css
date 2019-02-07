@@ -1,0 +1,112 @@
+nav{
+    background-color: aquamarine;
+    height: 55px;
+}
+
+#no_logeado a:nth-child(1), #no_logeado a:nth-child(2), #logeado a{
+    float: right;
+    color: black;
+    text-decoration: none;
+    padding-right: 20px;
+    margin-top: -20px;
+    font-size: 19px;
+}
+
+
+nav img{
+    padding-left: 20px;
+    padding-top: 8px;
+}
+.container{
+    padding-top: 100px;
+    text-align: center;
+}
+.card{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    width: 300px;
+    background-color: azure;
+    border: 1px;
+    border-color:aqua;
+    border-style: solid;
+    border-radius: 10px;
+    text-align: center;
+}
+
+input{
+    height: 25px;
+    width: 200px;
+    border-radius: 5px;
+    letter-spacing: .18em;
+}
+
+#registro, #login, #subir{
+    --offset: 10px;
+    --border-size: 2px;
+    float: center;
+    display: block;
+    position: relative;
+    padding: 4px;
+    appearance: none;
+    border: 0;
+    color:black;
+    background: transparent;
+    border-color:aqua;
+    text-transform: uppercase;
+    letter-spacing: .25em;
+    outline: none;
+    cursor: pointer;
+    border-radius: 7px;
+    font-weight: bold;
+    box-shadow: inset 0 0 0 var(--border-size) currentcolor;
+    transition: background .10s ease;
+    margin-left: 48px;
+}
+
+h2{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#fotosubir{
+    --offset: 10px;
+    --border-size: 2px;
+    display: block;
+    position: relative;
+    appearance: none;
+    border: 0;
+    color:black;
+    background: transparent;
+    border-color:aqua;
+    text-transform: uppercase;
+    letter-spacing: .25em;
+    outline: none;
+    cursor: pointer;
+    border-radius: 7px;
+    font-weight: bold;
+    box-shadow: inset 0 0 0 var(--border-size) currentcolor;
+    transition: background .10s ease;
+    float: right;
+}
+
+#foto{
+    padding-right: 200px;
+    padding-top: 20px;
+}
+
+#imagenes{
+    padding-top: 50px;
+    columns: 4;
+}
+
+#listado{
+    padding-top: 20px;
+    height: 600px;
+}
+
+#imagenes .col #listado img{
+    height: 200px;
+    width: 200px;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Instagram</title>
+      <script src="/js/libs/jquery-3.3.1.min.js"></script>
+      <script src="/js/libs/moment.min.js"></script>
+      <script type="text/javascript" src="/js/base.js"></script>
+      <link rel="stylesheet" href="/css/base.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+          <a href="/"><img src="https://image.flaticon.com/icons/png/512/39/39235.png" height="35"></a>
+          <div id="no_logeado">
+            <a href="login">Iniciar sesión</a>
+            <a href="register">Regístrate</a>
+          </div>
+          <div id="logeado">
+            <a href="logout">Cerrar sesión</a>
+          </div>    
+      </nav>
+    </header>
+    <div class="container-fluid">
+      <div class="row">
+        <div id="foto">
+          <input id="fotosubir" type="button" value="Subir Imagen">
+        </div>
+      </div>
+      <div class="row">
+        <div id="imagenes">
+          <div class="col">
+            <div class="card" id="listado">
+
+            </card>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

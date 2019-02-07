@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Instagram</title>
+        <script src="/js/libs/jquery-3.3.1.min.js"></script>
+        <script src="/js/libs/moment.min.js"></script>
+        <script type="text/javascript" src="/js/base.js"></script>
+        <link rel="stylesheet" href="/css/base.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="/"><img src="https://image.flaticon.com/icons/png/512/39/39235.png" height="35"></a>
+            </nav>
+        </header>
+        <div class="container">
+            <div class="card" id="formularioImagen">
+                <h2>Subir Imagen</h2>
+                <form id="formImagen" action="http://localhost:8080/insertImg" method="post" enctype="multipart/form-data">
+                    <input type="file" name="archivo" id="imagen">
+                    <br>
+                    <br>
+                    <input type="texto" placeholder="Texto" name="texto" id="texto">
+                    <br>
+                    <br>
+                    <input id="subir" type="submit" value="Subir">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
